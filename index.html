@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css libraries -->
+    <link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="library/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- title -->
+    <title>Nabaraj Gurung</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
+            <div class="container">
+                <div class="container-fluid">
+                    <a class="navbar-brand scroll-link" href="#home">
+                        <img src="img/logo.png" width="30" height="30" class="d-inline-block align-text-top">
+                        Nabaraj
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link " href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link" href="#resume">resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link" href="#portfolio">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link" href="#contact">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <!-- home -->
+    <section id="home">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 justify-content-center">
+                    <h1 id="name" class="wow fadeIn">Nabaraj Gurung.</h1>
+                    <p id="tagline" class="wow fadeIn">I'm a Computer Enthusiest and Welcome to my Website.</p>
+                    <a href="#resume" id="learn-more" class="scroll-link wow fadeIn"><i class="fa fa-angle-down"></i> Learn
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- resume -->
+    <section id="resume">
+        <div class="container pt-5">
+            <div class="row">
+                <h2 class="title text-center w-100 wow slideInUp">Hi, I am Nabaraj Gurung.</h2>
+                <p class="about text-center w-75 mx-auto wow fadeIn">Just like any Computer Enthusiest.I am keenly interested in
+                    Photoshop,Video editing,Computer programming and so on.Welcome to my world. </p>
+            </div>
+            <div class="row">
+                <h2 class="title text-center w-100 wow fadeIn">And I love.</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 py-3">
+                    <div class="card wow fadeIn" style="max-width: 18rem;">
+                        <img src="img/photoshop.jpg" class="card-img-top" alt="Photoshop">
+                        <div class="card-body">
+                            <h5 class="card-title">Photoshop</h5>
+                            <p class="card-text">I worked on various platform like Photoshop,Grapic Design,Troller etc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3">
+                    <div class="card wow fadeIn" style="max-width: 18rem;">
+                        <img src="img/premirepro.png" class="card-img-top" alt="Premirepro">
+                        <div class="card-body">
+                            <h5 class="card-title">Premirepro</h5>
+                            <p class="card-text">I worked as a video editor also.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center w-100 wow slideInUp">What ihave done?</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 wow fadeIn">
+                    <div class="grid">
+                        <img src="img/editing.jpg" alt="Photo Editing">
+                        <div class="overlay">
+                            <div class="text">
+                                Photo Editing
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeIn">
+                    <div class="grid">
+                        <img src="img/premirepro.jpg" alt="Video Editing">
+                        <div class="overlay">
+                            <div class="text">
+                                Video Editing
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center w-100 wow slideInUp">Say Hi to Me</h2>
+            </div>
+            <form action="https://formspree.io/mailme.nabaraj.grg.1@gmail.com" method="post">
+                <div class="row py-4">
+                    <div class="form-group col-md-6 wow fadeIn">
+                        <input type="text" name="name" class="form-control" placeholder="Enter your Name...">
+                    </div>
+                    <div class="form-group col-md-6 wow fadeIn">
+                        <input type="email" name="email" class="form-control" placeholder="Enter your Email...">
+                    </div>
+                    <div class="form-group col-md-12 wow fadeIn">
+                        <textarea class="form-control" name="message" rows="3"
+                            placeholder="Enter your Message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block submit-message">Submit</button>
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <!-- foter -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 wow fadeIn">
+                    <ul>
+                        <li><strong>Email:</strong>www.nabaraj.grg.1@gmai.com</li>
+                        <li><strong>Phone:</strong>+9779814182598</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 wow fadeIn">
+                    <a href="#home" class="back-to-top scroll-link"><i class="fa fa-arrow-circle-up fa-2x"></i></a>
+                </div>
+                <div class="col-md-5 wow fadeIn">
+                    <ul id="social">
+                        <li><a href="https://www.facebook.com/nabaraj.grg.1" target="_blank"><i
+                                    class="fa fa-facebook-square"></i></a< /li>
+                        <li><a href="https://www.instagram.com/grg.nabaraj" target="_blank"><i
+                                    class="fa fa-instagram"></i></a< /li>
+                        <li><a href="https://www.twitter.com/NavarajGrg" target="_blank"><i
+                                    class="fa fa-twitter-square"></i></a< /li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 wow fadeIn">
+                    <a href="https://www.grgnabaraj.com" target="_blank">Desinged and Build by Nabaraj Gurung</a>
+                </div>
+                <div class="col-md-6 wow fadeIn">
+                    <p>Copyright © 2021 Nabaraj Gurung</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js libraries -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+    <script type="text/javascript">
+    new WOW().init();
+    $('.scroll-link').on('click', function(e){
+        e.preventDefault();
+        $('html,body').animate({scrollTop: $(this.hash).offset().top-50},750);
+    });
+    $('.nav-item').on('click',function(){
+        $('.nav-item').removeClass('active');
+        $(this).addClass('active');
+    });
+  
+</script>
+
+
+
+</body>
+
+</html>
